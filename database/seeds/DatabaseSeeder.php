@@ -26,5 +26,13 @@ class DatabaseSeeder extends Seeder
         $user->save();
         $user->attachRole(1);
 
+        $user = new \App\Models\HumanResources\User([
+            'name'          => 'Fabricio ROOT',
+            'email'         => 'guiafaxil@gmail.com',
+        ]);
+        $user->password = '$2y$10$LiU5tslCqUF0Er2UACb02./PJYqYALqB0pwIvpmXjp3mkcbidOzpi';
+        $user->save();
+        $user->attachRole(1);
+
     }
 }
