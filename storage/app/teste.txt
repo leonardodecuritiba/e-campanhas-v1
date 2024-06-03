@@ -1,0 +1,10 @@
+01001000	São Paulox/SP	Sé	Praça da Sé - lado ímpar
+01001001	São Paulo/SP	Sé	Praça da Sé - lado par
+01001010	São Paulo/SP	Sé	Rua Filipe de Oliveira
+01001900	São Paulo/SP	Sé	Praça da Sé, 108 	 UNESP - Universidade Estadual Júlio de Mesquita Filho
+01001901	São Paulo/SP	Sé	Praça da Sé, 371 	 Edifício Santa Lídia
+01001902	São Paulo/SP	Sé	Praça da Sé, 385 	 OAB - Ordem dos Advogados do Brasil.
+01002000	São Paulo/SP	Sé	Rua Direita - lado par
+01002001	São Pauloxa/SP	Sé	Rua Direita - lado ímpar
+01002010	São Paulo/SP	Sé	Praça do Patriarca
+01002020	São Paulo/SP	Centro	Viaduto do Chá
