@@ -86,11 +86,11 @@
                         <tr>
                             <th>ID</th>
                             <th>Cadastrado</th>
-                            <th>Fantasia</th>
-                            <th>Razão Social</th>
-                            <th>CPF/CNPJ</th>
-                            <th>Email</th>
-                            <th>Fone</th>
+                            <th>Nome</th>
+                            <th>Apelido</th>
+                            <th>Cabo Eleitoral</th>
+                            <th>Apoiador</th>
+                            <th>Whatsapp</th>
                             <th>Ações</th>
                         </tr>
                         </thead>
@@ -98,24 +98,23 @@
                         <tr>
                             <th>ID</th>
                             <th>Cadastrado</th>
-                            <th>Fantasia</th>
-                            <th>Razão Social</th>
-                            <th>CPF/CNPJ</th>
-                            <th>Email</th>
-                            <th>Fone</th>
+                            <th>Nome</th>
+                            <th>Apelido</th>
+                            <th>Cabo Eleitoral</th>
+                            <th>Apoiador</th>
+                            <th>Whatsapp</th>
                             <th>Ações</th>
                         </tr>
                         </tfoot>
                         <tbody>
                         @foreach($Page->response as $sel)
                             <tr>
-                                <td>{{$sel['id']}}</td>
-                                <td data-order="{{$sel['created_at_time']}}">{{$sel['created_at']}}</td>
-                                <td>{{$sel['fantasy_name_text']}}</td>
-                                <td>{{$sel['social_reason_text']}}</td>
-                                <td>{{$sel['short_document']}}</td>
-                                <td>{{$sel['email_contact']}}</td>
-                                <td>{{$sel['phone']}}</td>
+                                <th>Cadastrado</th>
+                                <th>Nome</th>
+                                <th>Apelido</th>
+                                <th>Cabo Eleitoral</th>
+                                <th>Apoiador</th>
+                                <th>Whatsapp</th>
                                 <td>
                                     @include('layout.inc.buttons.edit')
                                     @include('layout.inc.buttons.delete')

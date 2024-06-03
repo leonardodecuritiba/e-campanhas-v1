@@ -22,7 +22,7 @@ class DatabaseSeeder extends Seeder
             'name'          => 'Leonardo ROOT',
             'email'         => 'silva.zanin@gmail.com',
         ]);
-        $user->password = '$2y$10$LiU5tslCqUF0Er2UACb02./PJYqYALqB0pwIvpmXjp3mkcbidOzpi';
+        $user->password = '123';
         $user->save();
         $user->attachRole(1);
 
@@ -30,7 +30,7 @@ class DatabaseSeeder extends Seeder
             'name'          => 'Fabricio ROOT',
             'email'         => 'guiafaxil@gmail.com',
         ]);
-        $user->password = '$2y$10$LiU5tslCqUF0Er2UACb02./PJYqYALqB0pwIvpmXjp3mkcbidOzpi';
+        $user->password = '123';
         $user->save();
         $user->attachRole(1);
 
